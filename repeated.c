@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int n,a[10000],i,j,k,c=0,d,swap,b[20],c1,s;
+int n,a[10000],i,j,s,c;
 scanf("%d",&n);
 if (n>0)
 {
@@ -21,7 +21,7 @@ for (i=1;i<n;i++)
 
 {
     if (a[i]==a[j])
-{printf("\n\n%d\n\n",a[i]);
+{printf("%d",a[i]);
 c++;
 }
 
